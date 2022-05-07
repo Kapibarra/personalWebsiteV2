@@ -6356,6 +6356,17 @@ html .pb140 {
     -webkit-text-fill-color: transparent;
 }
 
+.text-effect-4 {
+    background: #fc00c7;
+    background-image: -moz-linear-gradient(-45deg, #fc00c7 0%, #1c4efd 54%, #00aded 100%);
+    background-image: -webkit-linear-gradient(-45deg, #fc00c7 0%, #1c4efd 54%, #00aded 100%);
+    background-image: linear-gradient(115deg, #fc00c7 26%, #1c4efd 74%, #00aded 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .bg-btn {
     background: #ffbd84;
     background: -moz-linear-gradient(left, #ffbd84 0%, #ff1f8e 100%);
