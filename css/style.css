@@ -8071,8 +8071,8 @@ html .mt15 {
 
 .card-dark-2 {
     overflow: hidden;
-    border: 1px solid hsla(0, 0%, 100%, .05);
-    background-color: hsla(0, 0%, 100%, .05);
+    /* border: 1px solid hsla(0, 0%, 100%, .05);
+    background-color: hsla(0, 0%, 100%, .05); */
     border-radius: 14px;
 }
 
