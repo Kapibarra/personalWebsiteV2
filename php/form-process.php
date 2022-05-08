@@ -2,7 +2,7 @@
 $errorMSG = "";
 // NAME
 if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
+    $errorMSG = "Введите имя";
 } else {
     $name = $_POST["name"];
 }
@@ -15,7 +15,7 @@ if (empty($_POST["email"])) {
 }
 //mobile
 if (empty($_POST["mobile"])) {
-    $errorMSG = "mobile is required ";
+    $errorMSG = "Введите телефон";
 } else {
     $mobile = $_POST["mobile"];
 }
@@ -27,7 +27,7 @@ if (empty($_POST["Dtype"])) {
 }
 // MESSAGE
 if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
+    $errorMSG .= "Введите любое сообщение";
 } else {
     $message = $_POST["message"];
 }

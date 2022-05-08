@@ -22,7 +22,7 @@ class Mailer {
             //Recipients
             $mail->setFrom(Config::SET_FROM_EMAIL, Config::SET_FROM_NAME);
             $mail->addAddress($sendTo, $reciverName);     //Add a recipient
-            $mail->addAddress('info@example.com');        //replace your email here
+            $mail->addAddress('nmn@madstack.ru');        //replace your email here
             //$mail->addReplyTo('info@example.com', 'Information');
             //$mail->addCC('cc@example.com');
             //$mail->addBCC('bcc@example.com');
